@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+const Color ACCENT_COLOR = Color(0xFF42003F);
+const Color BUTTON_COLOR = Color(0xFF762E72);
+const Color BACKGROUND = Color(0xFFF5F5F5);
+const Color LIGHT_BLUE = Color(0xFFF5F9FF);
+const Color LIGHT_BLUE2 = Color(0xFFF1F7FF);
+const Color LIGHT_BLUE1 = Color(0xFFF7F8FF);
+const Color BLUE = Color(0xFF002F6C);
+const Color BLUE1 = Color(0xFF011C3F);
+const Color SKY_BLUE = Color(0xffc4d9fc);
+const Color SKY_BLUE_GRADIENT = Color(0xbc8fbef8);
+const Color BLUE_3B5395 = Color(0xff3b5395);
+const Color GRAY_EAEEFF = Color(0xffeaeeff);
+const Color YELLOW_100 = Color(0xFFFFD100);
+const Color LIME_COLOR = Color(0xFFE0EC89);
+const Color MARUN = Color(0xFFAC145A);
+const Color LIGHT_RED = Color(0xFFEB5757);
+const Color YELLOW = Color(0xFFFF9800);
+const Color GREY1 = Color(0xFFEAEAEA);
+const Color LIGHT_BLACK = Color(0xFF1E1F23);
+const Color LIGHT_GRAY = Color(0xFF32343B);
+const Color RED = Color(0xFFC8102E);
+const Color GREEN = Color(0xFF006341);
+
+const Color WHITE = Colors.white;
+const Color BLACK = Colors.black;
+const Color DIVIDER_GREY = Color(0xFFEFEFEF);
+const Color GREY = Color(0xFF9E9E9E);
+const Color LIGHT_GREY = Color(0xFFEEEEEE);
+const Color PROFILE_LIGHT_GREY_DIVIDER = Color(0xFFC0C0C0);
