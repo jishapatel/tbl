@@ -182,8 +182,7 @@ class _WalletListState
     return Expanded(
       child: StreamBuilder<WalletHistoryResponse>(
         stream: getBloc().walletTransactionResponseStream,
-        builder: (BuildContext context,
-            AsyncSnapshot<WalletHistoryResponse> snapshot) {
+        builder: (BuildContext context, AsyncSnapshot<WalletHistoryResponse> snapshot) {
           if (snapshot.hasData) {
             final reservationResponse = snapshot.data!;
             if (reservationResponse.walletHistories?.isEmpty == false) {
@@ -200,14 +199,13 @@ class _WalletListState
                       itemCount: reservationResponse.walletHistories?.length,
                       itemBuilder: (context, index) {
                         if (snapshot.hasData) {
-                          return _itemRow(
-                              snapshot.data!.walletHistories![index]);
+                          return _itemRow(snapshot.data!.walletHistories![index]);
                         } else {
                           return Text('No data available');
                         }
                       },
                     ),
-                    //SizedBox(height: 29.h),
+                    SizedBox(height: 29.h), // Add padding of 29 at the bottom
                   ],
                 ),
               );

@@ -748,15 +748,15 @@ class _ReserveTableScreenState
                 // Button to increase quantity
                 GestureDetector(
                   onTap: () {
-                    incrementQuantity();
+                    decrementQuantity();
                   },
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(4),
                     child: Container(
                       color: BLUE,
-                      padding: const EdgeInsets.all(7.33),
+                      padding: const EdgeInsets.all(7.3),
                       child: ImageView(
-                        image: AppImages.icPLus,
+                        image: AppImages.icMinus,
                         imageType: ImageType.svg,
                       ),
                     ),
@@ -779,20 +779,21 @@ class _ReserveTableScreenState
                 // Button to decrease quantity
                 GestureDetector(
                   onTap: () {
-                    decrementQuantity();
+                    incrementQuantity();
                   },
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(4),
                     child: Container(
                       color: BLUE,
-                      padding: const EdgeInsets.all(7.3),
+                      padding: const EdgeInsets.all(7.33),
                       child: ImageView(
-                        image: AppImages.icMinus,
+                        image: AppImages.icPLus,
                         imageType: ImageType.svg,
                       ),
                     ),
                   ),
                 ),
+
               ],
             )
           ],
